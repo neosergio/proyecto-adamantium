@@ -1,0 +1,22 @@
+/* WEB DEVELOPMENT TEAM */
+Sergio Infante Montero
+sinfante@belatrixsf.com
+@neosergio
+
+Andres Tello
+atello@belatrixsf.com
+
+Renzo Castañeda
+rcastaneda@belatrixsf.com
+
+Raul Rashuaman
+rrashuaman@belatrixsf.com
+
+/* SITE */
+Last update: 2014/01/22
+Standars: html5, css3
+Components: jquery, bootstrap
+Software: Sublime Text
+
+/* THANKS */
+Belatrix Software http://belatrixsf.com

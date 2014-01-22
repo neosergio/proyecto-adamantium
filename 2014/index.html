@@ -24,6 +24,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
     <script id="LR1" type="text/javascript" async="" src="http://platform.twitter.com/js/tfw/hub/client.js"></script>
     <style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
     .fb_invisible{display:none}
@@ -232,7 +233,7 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="media/toRegisterBtn.png" alt="Generic placeholder image">
+          <a href="#registrate"><img class="img-circle" src="media/toRegisterBtn.png" alt="Generic placeholder image"></a>
           <h2>¿Como participar?</h2>
           <p>Completa el formulario de registro para tu participación, y si tienes una idea compartela, así encontraras personas que deseen desarrollarla contigo.</p>
         </div><!-- /.col-lg-4 -->
@@ -247,11 +248,47 @@
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
+    <!-- START THE FEATURETTES -->
 
-      <!-- START THE FEATURETTES -->
+    <!-- #registrate -->
+    <hr class="featurette-divider">
+    <div id="registrate" class="row featurette">
+        <div class="col-md-5 center-block button-container">
+            <div>
+                <button type="button" class="btn btn-lg btn-primary btn-block visible-md visible-lg" data-toggle="modal" data-target="#formularioRegistro">Regístrate aquí</button>
+                <p><a class="btn btn-lg btn-primary btn-block visible-xs visible-sm" href="https://eventioz.pe/e/hackatrix2014" role="button" target="_blank">Más información</a></p>
+                <div id="formularioRegistro" class="modal fade">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Registrate para la Hackatrix 2014</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                            <iframe src='https://eventioz.pe/e/hackatrix--2/registrations/new?iframe=' width='570' height='430' frameborder='0' scrolling='yes'></iframe>
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div><!-- /.modal-content -->
+                  </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+            </div>
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Registrate <span class="text-muted"> y encuentra gente creativa y trabaja en equipo por mejorar nuestra sociedad</span></h2>
+            <p class="lead">Rellena el formulario, imprime tu registro y presentalo el día del evento, el cupo es limitado.</p>
+        </div>
+        <div>
+            <p class="pull-right"><a href="#">Volver al principio</a></p>
+        </div>
+    </div><!-- /#registrate -->
 
-      <hr class="featurette-divider" style="background-color:#c00;">
-          <div class="row featurette">
+
+    <hr class="featurette-divider" style="background-color:#c00;">
+        <div class="row featurette">
               <div id="quienes_content">
                   <section class="contenidoprincipal">
                       <article class="completo">

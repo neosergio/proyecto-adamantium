@@ -3,15 +3,6 @@ Sergio Infante Montero
 sinfante@belatrixsf.com
 @neosergio
 
-Andres Tello
-atello@belatrixsf.com
-
-Renzo Castañeda
-rcastaneda@belatrixsf.com
-
-Raul Rashuaman
-rrashuaman@belatrixsf.com
-
 /* SITE */
 Last update: 2014/03/15
 Standars: html5, css3

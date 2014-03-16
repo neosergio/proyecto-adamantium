@@ -55,6 +55,9 @@ body {
 .thumbnail {
     box-shadow: -3px -3px 6px #555;
     -moz-box-shadow: -3px -3px 6px #555;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
 }
 
 /* Padding for spacing */

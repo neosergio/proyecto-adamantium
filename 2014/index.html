@@ -156,7 +156,7 @@
                 <span class="icon-bar"></span>
               </button>
 
-              <a class="navbar-brand" href="/">Hackatrix 2014</a>
+              <a class="navbar-brand" href="/2014">Hackatrix 2014</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -240,7 +240,7 @@
         <div class="col-lg-4">
           <img class="img-circle" src="media/hackatrix-med.png" alt="Hackatrix">
           <h2>Sabado 17 de Mayo 2014.</h2>
-          <h3>9:00 am - 07:00 pm</h3>
+          <h3>9:00 am - 04:00 pm</h3>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="media/mapa-hackatrix.png" alt="Hackatrix">
@@ -251,28 +251,11 @@
     <!-- #registrate -->
     <hr class="featurette-divider">
     <div id="registrate" class="row featurette">
-        <div class="col-md-5 center-block button-container">
-            <div>
-                <button type="button" class="btn btn-lg btn-primary btn-block visible-md visible-lg" data-toggle="modal" data-target="#formularioRegistro">Regístrate aquí</button>
-                <p><a class="btn btn-lg btn-primary btn-block visible-xs visible-sm" href="https://eventioz.pe/e/hackatrix2014" role="button" target="_blank">Regístrate aquí</a></p>
-                <div id="formularioRegistro" class="modal fade">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Registrate para la Hackatrix 2014</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>
-                            <iframe src='https://eventioz.pe/e/hackatrix--2/registrations/new?iframe=' width='570' height='430' frameborder='0' scrolling='yes'></iframe>
-                        </p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      </div>
-                    </div><!-- /.modal-content -->
-                  </div><!-- /.modal-dialog -->
-                </div><!-- /.modal -->
+        <div class="col-md-5 center-block">
+            <div class="button-container">
+                <p>
+                    <a href="https://www.eventbrite.com/e/hackatrix-lima-2014-la-primer-hackathon-social-tickets-10705501443?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=10705501443" alt="Eventbrite - Hackatrix Lima 2014 - La primer Hackathon Social!" /></a>
+                </p>
             </div>
         </div>
         <div class="col-md-7">
@@ -327,47 +310,91 @@
 
       <div class="row featurette" id="tips">
           <div class="col-md-12">
-              <h3 class="featurette-heading">Respecto al hardware:</h3>
-              <p class="lead">Vamos a proveer algunas máquinas para trabajar, pero en estos encuentros siempre conviene que traigas tu propia laptop (con su cargador y bateria) para hacerlo más dinámico, seguro y ágil al proceso. Y obviamente como punto a resaltar, vas a tener la experiencia usando tus propias herramientas.</p>
-              <p class="lead">Vamos a proveer adaptadores, zapatillas y alargues, pero de nuevo: nunca esta de mas venir mejor preparado con tu propio kit.</p>
-
-              <h3 class="featurette-heading">Respecto al software:</h3>
-
-              <h3><span class="text-muted">Entorno</span></h3>
-
-              <p class="lead">Tener en tu máquina, el entorno de desarrollo preferido preparado para comenzar de inmediato.<br>
-                  En caso de que te toque trabajar con otro entorno (o no estas muy seguro de cual utilizar) vamos a proveer máquinas virtuales preseteadas para cargar rápidamente, por lo tanto muy importante: traete instalado en tu maquina algun player de máquina virtual!</p>
-
-              <p class="lead">Tutoriales:
-                  <br>
-                  <a href="http://www.configurarequipos.com/doc747.html" target="_blank">http://www.configurarequipos.com/doc747.html</a>
-                  <br>
-                  <a href="http://www.taringa.net/posts/offtopic/2089716/Como-instalar-una-maquina-virtual.html" target="_blank">http://www.taringa.net/posts/offtopic/2089716/Como-instalar-una-maquina-virtual.html</a>
-              </p>
-
-              <p class="lead">Players:
-                  <br>
-                  <a href="https://www.virtualbox.org/" target="_blank">https://www.virtualbox.org/</a>
-                  <br>
-                  <a href="http://www.vmware.com/ar/" target="_blank">http://www.vmware.com/ar/</a>
-              </p>
-
-              <h3><span class="text-muted">Control de versiones</span></h3>
-
-              <p class="lead">Fundamental para trabajar en equipo.<br>
-                  Recomendamos:<br>
-                  Git: <a href="http://git-scm.com/" target="_blank">http://git-scm.com/</a><br>
-                  Subversion: <a href="http://subversion.tigris.org/" target="_blank">http://subversion.tigris.org/</a></p>
-
-              <p class="lead">Conviene aprovechar los servicios online gratuitos para el control de versiones, por lo tanto te sugerimos venir con una cuenta creada en alguno de ellos:
-                  La “estrella” es Github: <a href="http://github.com/" target="_blank">http://github.com/</a> donde tenemos una gran comunidad, con lo cual el proyecto puede ganar audiencia y prestigio con esto.
-                  Tambien recomendamos <a href="https://bitbucket.org" target="_blank">https://bitbucket.org</a>
-                  Para el caso de Subversion, la mejor opcion es Google Code: <a href="https://code.google.com" target="_blank">https://code.google.com</a></p>
+              <h2 class="featurette-heading">Tips & Tricks</h2>
+              <ol class="lead">
+                  <li><p></p>Traer tu laptop con tu Stack de desarrollo favorito.</li>
+                  <li>Tener una cuenta en GitHub o Bitbucket</li>
+                  <li>Tener configurado un Cliente Git o Mercurial.
+                    <ul>
+                        <li>Git: <a title="git scm" href="http://git-scm.com/downloads">http://git-scm.com/downloads</a> (sugerido)</li>
+                        <li>Mercurial: <a title="tortoisehg" href="http://tortoisehg.bitbucket.org/download/index.html">http://tortoisehg.bitbucket.org/download/index.html</a> (sugerido)</li>
+                    </ul>
+                  </li>
+                  <li>Tener instalado <a title="virtualbox" href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a></li>
+                  <li>Llegar temprano para asi tener mejores oportunidades de escoger un equipo.</li>
+                  <li>Si tienes un Cable Patch o un access point de mas tráelos.</li>
+              </ol>
           </div>
       </div>
       <div>
           <p class="pull-right"><a href="#">Volver al principio</a></p>
       </div><!-- /tips and tricks -->
+
+      <!-- consideraciones -->
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="consideraciones">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Bases y condiciones > Hackatrix Lima 2014</h2>
+
+          <ol class="lead">
+              <li>La Hackatrix Perú 2014 (El evento) será realizado el día Sábado 17 de Mayo de 2014 en la Universidad Católica del Perú, en el espacio denominado Tinkuy. El evento comenzará a las 9hs y finalizará a las 16hs.</li>
+              <li>El evento está organizado por Belatrix Perú (El Organizador) e invita a participar a todos aquellos interesados en crear Apps y proyectos de carácter social. El cupo está limitado a 100 participantes, reservándose El Organizador la potestad a modificar la cantidad de participantes.</li>
+              <li>Los participantes deberán registrarse en <a title="Hackatrix" href="http://hackatrix.belatrixsf.com">http://hackatrix.belatrixsf.com</a> previamente para poder concurrir al Evento. Todos aquellos que quisieran participar y no se hayan anotado antes del 10 de Mayo de 2014, no podrán participar en El Evento bajo ninguna circunstancia. Los participantes deberán ser mayores de 18 años.</li>
+              <li>Cada Participante será responsable por los equipos o elementos personales que ingrese al Evento, no siendo Belatrix responsable por pérdidas, daños, robos o hurtos de los bienes de los Participantes.</li>
+              <li>Los participantes se anotarán durante El Evento a las distintas ideas presentadas y formaran los equipos de trabajo. Los participantes una vez que hayan elegido en que idea trabajar, no podrán cambiar de equipo. Los equipos participantes recibirán las consignas por parte de los organizadores para poder realizar sus tareas. Cada equipo trabajará en una serie de ciclos por tiempo, llamados iteraciones, en los cuales deberán presentar el avance de su trabajo. Al finalizar el último ciclo, deberán presentar todo lo desarrollado al jurado, para su evaluación.</li>
+              <li>Los participantes tendrán que determinar antes de la presentación al jurado la licencia abierta que van a utilizar.</li>
+              <li>Las herramientas y los frameworks de los desarrolladores dependerán de cada uno de los equipos participantes. El organizador proveerá de la infraestructura de internet y cableado, así como el espacio físico necesario para El Evento.</li>
+              <li>Los Participantes aceptan y garantizan que no presentarán contribuciones que contengan virus informático, gusano informático, spyware, u otro componente malicioso, engañoso, o diseñado para restringir o dañar la funcionalidad de una computadora y/o acceder a la información personal de los usuarios de la aplicación. Que infrinja los derechos de autor de terceros, patentes, marcas registradas, secreto comercial u otros derechos de propiedad o derechos de publicidad o privacidad de terceros. Que viole cualquier ley o normativa vigente en el Territorio Peruano. Que razonablemente puede ser considerado como difamatorio, calumnioso, odioso, racial o moralmente ofensivo, amenazante ilícitamente o ilegalmente acosar a cualquier persona, sociedad o corporación.</li>
+              <li>Los participantes se podrán retirar en cualquier momento mediante notificación escrita a la organización, si se trata de un equipo, con la firma de todos sus miembros. El retiro del concurso excluye de obtener cualquier premio.</li>
+              <li>El jurado será designado por El Organizador del Evento. Belatrix será quien determine el número de jurados y sus integrantes.</li>
+              <li>El jurado determinará los ganadores de acuerdo a las consignas dictadas previamente y quedará bajo su absoluto criterio determinar qué equipo será el ganador. El jurado puede determinar también al concurso como desierto, si ningún equipo cumple con las metas preestablecidas. El jurado calificador se reserva el derecho a rechazar contribuciones de los participantes por cualquier otro motivo que el jurado estime conveniente y no se encuentre expresado en el punto 6.</li>
+              <li>El equipo ganador recibirá como premio grupal una (1) Tablet Samsung y un (1) inscripción gratuita para certificarse como Scrum Master en curso dictado por Belatrix y como premio individual un curso de capacitación en tecnologías específicas dictados por Belatrix. El premio puede ser cambiado por parte del Organizador previamente al inicio del Evento y será comunicado a los participantes antes de comenzar. El premio será entregado ese mismo día al finalizar el evento. El Premio es personal e intransferible y en ningún caso ser reclamado por terceros.</li>
+              <li>La responsabilidad de Belatrix finaliza con la puesta a disposición del premio asignado al Ganador/es y bajo ningún concepto deberá responder o reintegrar al ganador cualquier costo y/o gasto en que éste incurran en razón de su participación en el Evento, ni por cualquier otra causa.</li>
+              <li>La inscripción y/o participación en el Evento implica el pleno conocimiento y aceptación de estas Bases y Condiciones, y de los requisitos para participar en el Evento. Todas y cada una de estas cláusulas pueden ser cambiadas sin previo aviso por el Organizador.</li>
+              <li>Todas las personas que participen y sean favorecidas en este Evento aceptan y autorizan en forma ilimitada al Organizador a hacer uso para efectos publicitarios de su nombre y derecho de imagen.</li>
+              <li>Para toda divergencia que pudiera surgir con relación a este Evento y las Bases, las partes se someten a la jurisdicción y competencia de los Juzgados, a ser determinados por Belatrix, con asiento en la Ciudad de Lima, renunciando a cualquier otro fuero o jurisdicción que pudiera corresponderles.</li>
+          </ol>
+        </div>
+      </div>
+      <div>
+        <p class="pull-right"><a href="#">Volver al principio</a></p>
+      </div><!-- /consideraciones -->
+
+        <!-- somos -->
+        <hr class="featurette-divider">
+        <div class="row featurette" id="somos">
+            <div class="col-md-7">
+                <h3>¿Quiénes somos?</h3>
+                <ul>
+                    <li><p class="lead">Empresa líder de desarrollo de software en América Latina.</p></li>
+                    <li><p class="lead">La 1° Empresa en Argentina en aprobar CMMi nivel 3 </p></li>
+                    <li><p class="lead">Centros de desarrollo en Mendoza, Argentina y Lima, Perú.</p></li>
+                    <li><p class="lead">Empresa Endeavor desde 2013</p></li>
+                </ul>
+              
+                <h3>¿Qué nos diferencia?</h3>
+                <ul>
+                    <li><p class="lead">Nuestros clientes son las más importantes empresas de todo el mundo: EEUU, Canadá, Europa</p></li>
+                    <li><p class="lead">Posibilidades de viajar a todos los países donde tenemos clientes.</p></li>
+                    <li><p class="lead">Posibilidad de ser parte de un equipo de trabajo orientado a la exportación de software</p></li>
+                    <li><p class="lead">Excelente ambiente laboral</p></li>
+                    <li><p class="lead">Más de 120 hs. anuales de capacitación </p></li>
+                    <li><p class="lead">Somos especialistas en metodologías ágiles como Scrum.</p></li>
+                    <li><p class="lead">Invertimos en investigación y desarrollo: Nuevas tecnologías de testing, desarrollos móviles, nuevos frameworks, etc.</p></li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <div class="center-block"><img src="media/hackatrix.png" alt="Belatrix Software"></div>
+                <h2 class="featurette-heading">Belatrix Software
+                <span class="text-muted"> es la compañia de Desarrollo de Software líder en Sudamérica. Únanse a nosotros para llegar al siguiente nivel en la industria de software.</span></h2>
+                <p><a href="http://careers.belatrixsf.com">Trabaja con Nosotros</a></p>
+            </div>
+        </div>
+        <div>
+            <p class="pull-right"><a href="#">Volver al principio</a></p>
+        </div><!-- /somos -->
+
 
     <!-- social -->
     <hr class="featurette-divider">
@@ -405,94 +432,13 @@
     </div>
     <!-- /social -->
 
-    <!-- somos -->
-    <hr class="featurette-divider">
-    <div class="row featurette" id="somos">
-        <div class="col-md-7">
-            <h3>¿Quiénes somos?</h3>
-            <ul>
-                <li><p class="lead">Empresa líder de desarrollo de software en América Latina.</p></li>
-                <li><p class="lead">La 1° Empresa en Argentina en aprobar CMMi nivel 3 </p></li>
-                <li><p class="lead">Centros de desarrollo en Mendoza, Argentina y Lima, Perú.</p></li>
-                <li><p class="lead">Empresa Endeavor desde 2013</p></li>
-            </ul>
-          
-            <h3>¿Qué nos diferencia?</h3>
-            <ul>
-                <li><p class="lead">Nuestros clientes son las más importantes empresas de todo el mundo: EEUU, Canadá, Europa</p></li>
-                <li><p class="lead">Posibilidades de viajar a todos los países donde tenemos clientes.</p></li>
-                <li><p class="lead">Posibilidad de ser parte de un equipo de trabajo orientado a la exportación de software</p></li>
-                <li><p class="lead">Excelente ambiente laboral</p></li>
-                <li><p class="lead">Más de 120 hs. anuales de capacitación </p></li>
-                <li><p class="lead">Somos especialistas en metodologías ágiles como Scrum.</p></li>
-                <li><p class="lead">Invertimos en investigación y desarrollo: Nuevas tecnologías de testing, desarrollos móviles, nuevos frameworks, etc.</p></li>
-            </ul>
-        </div>
-        <div class="col-md-5">
-            <div class="center-block"><img src="media/hackatrix.png" alt="Belatrix Software"></div>
-            <h2 class="featurette-heading">Belatrix Software
-            <span class="text-muted"> es la compañia de Desarrollo de Software líder en Sudamérica. Únanse a nosotros para llegar al siguiente nivel en la industria de software.</span></h2>
-            <p><a href="http://careers.belatrixsf.com">Trabaja con Nosotros</a></p>
-        </div>
-    </div>
-    <div>
-        <p class="pull-right"><a href="#">Volver al principio</a></p>
-    </div><!-- /somos -->
-
-
-    <!-- consideraciones -->
-      <hr class="featurette-divider">
-
-      <div class="row featurette" id="consideraciones">
-        <div class="col-md-12">
-          <h3 class="featurette-heading">Bases y condiciones > Hackatrix Mendoza 2013</h3>
-
-          <p class="lead">1- La Hackatrix Mendoza 2013 (El evento) será realizada el día Sábado 07 de Septiembre de 2013 en [Lugar específico del Le Parc] cito en Mitre y Godoy Cruz, Guaymallen. El evento comenzará a las 9hs y finalizará a las 16hs.</p>
-
-          <p class="lead">2- El evento está organizado por Belatrix (El Organizador) e invita a participar a todos aquellos interesados en crear Apps de carácter social. El cupo está limitado a 60 participantes, reservándose El Organizador la potestad a modificar la cantidad de participantes.</p>
-
-          <p class="lead">3- Los participantes deberán anotarse en www.hackatrix.belatrixsf.com previamente para poder concurrir al Evento. Todos aquellos que quisieran participar y no se hayan anotado antes del30 de Agosto de 2013, no podrán participar en El Evento bajo ninguna circunstancia. Los participantes deberán ser mayores de 18 años</p>
-
-          <p class="lead">4- Cada Participante será responsable por los equipos o elementos personales que ingrese al Evento, no siendo Belatrix responsable por pérdidas, daños, robos o hurtos de los bienes de los Participantes.</p>
-
-          <p class="lead">5- Los participantes se anotarán durante El Evento a las distintas ideas presentadas y formaran los equipos de trabajo. Los participantes una vez que hayan elegido en que idea trabajar, no podrán cambiar de equipo. Los equipos participantes recibirán las consignas por parte de los organizadores para poder realizar sus tareas. Cada equipo trabajará en una serie de ciclos por tiempo, llamados iteraciones, en los cuales deberán presentar el avance de su trabajo. Al finalizar el último ciclo, deberán presentar todo lo desarrollado al jurado, para su evaluación.</p>
-
-          <p class="lead">6- Los participantes tendrán que determinar antes de la presentación al jurado la licencia abierta que van a utilizar.</p>
-
-          <p class="lead">7- Las herramientas y los frameworks de los desarrolladores dependerán de cada uno de los equipos participantes. El organizador proveerá de la infraestructura de internet y cableado, así como el espacio físico necesario para El Evento.</p>
-
-          <p class="lead">8- Los Participantes aceptan y garantizan que no presentarán contribuciones que contengan virus informático, gusano informático, spyware, u otro componente malicioso, engañoso, o diseñado para restringir o dañar la funcionalidad de una computadora y/o acceder a la información personal de los usuarios de la aplicación. Que infrinja los derechos de autor de terceros, patentes, marcas registradas, secreto comercial u otros derechos de propiedad o derechos de publicidad o privacidad de terceros. Que viole cualquier ley o normativa vigente en el Territorio Argentino. Que razonablemente puede ser considerado como difamatorio, calumnioso, odioso, racial o moralmente ofensivo, amenazante ilícitamente o ilegalmente acosar a cualquier persona, sociedad o corporación.</p>
-
-          <p class="lead">9- Los participantes se podrán retirar en cualquier momento mediante notificación escrita a la organización, si se trata de un equipo, con la firma de todos sus miembros. El retiro del concurso excluye de obtener cualquier premio.</p>
-
-          <p class="lead">10- El jurado será designado por El Organizador del Evento. Belatrix será quien determine el número de jurados y sus integrantes.</p>
-
-          <p class="lead">11- El jurado determinará los ganadores de acuerdo a las consignas dictadas previamente y quedará bajo su absoluto criterio determinar qué equipo será el ganador. El jurado puede determinar también al concurso como desierto, si ningún equipo cumple con las metas preestablecidas. El jurado calificador se reserva el derecho a rechazar contribuciones de los participantes por cualquier otro motivo que el jurado estime conveniente y no se encuentre expresado en el punto 6.</p>
-
-          <p class="lead">12- El equipo ganador recibirá como premio [premio]. El premio puede ser cambiado por parte del Organizador previamente al inicio del Evento y será comunicado a los participantes antes de comenzar. El premio será entregado ese mismo día al finalizar el evento. El Premio es personal e intransferible y en ningún caso ser reclamado por terceros.</p>
-
-          <p class="lead">13- La responsabilidad de Belatrix finaliza con la puesta a disposición del premio asignado al Ganador/es y bajo ningún concepto deberá responder o reintegrar al ganador cualquier costo y/o gasto en que éste incurran en razón de su participación en el Evento, ni por cualquier otra causa.</p>
-
-          <p class="lead">14- La inscripción y/o participación en el Evento implica el pleno conocimiento y aceptación de estas Bases y Condiciones, y de los requisitos para participar en el Evento. Todas y cada una de estas cláusulas pueden ser cambiadas sin previo aviso por el Organizador.</p>
-
-          <p class="lead">15- Todas las personas que participen y sean favorecidas en este Evento aceptan y autorizan en forma ilimitada al Organizador a hacer uso para efectos publicitarios de su nombre y derecho de imagen.</p>
-
-          <p class="lead">16- Para toda divergencia que pudiera surgir con relación a este Evento y las Bases, las partes se someten a la jurisdicción y competencia de los Juzgados [nombre juzgado] con asiento en la Ciudad de Mendoza, renunciando a cualquier otro fuero o jurisdicción que pudiera corresponderles.</p>
-          
-        </div>
-      </div>
-      <div>
-        <p class="pull-right"><a href="#">Volver al principio</a></p>
-      </div><!-- /consideraciones -->
-
       <hr class="featurette-divider">
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Volver al principio</a></p>
-        <p>&copy; 2014 Belatrix Software. &middot; <a href="#">Bases y Condiciones</a></p>
+        <p>&copy; 2014 Belatrix Software. &middot; <a href="#consideraciones">Bases y Condiciones</a></p>
       </footer>
 
     </div><!-- /.container -->

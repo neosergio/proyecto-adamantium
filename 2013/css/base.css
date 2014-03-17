@@ -1,0 +1,362 @@
+*{text-indent: 0px;}
+
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100%;
+    margin: 0px
+}
+
+@font-face {
+    font-family: age_font;
+    src: url('age.otf');
+}
+
+a{
+    text-decoration: none;
+}
+ 
+.sitio {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    color:white;
+    font-size:14px;
+    }
+    
+header {
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+    padding:15px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    border-radius:0px;
+        
+    background: #F6921E; /* Old browsers */
+    background: -moz-radial-gradient(circle at center center , #FDBC1E 0%, #F6921E 100%) /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#FDBC1E), color-stop(100%,#F6921E)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, circle cover,  #FDBC1E 0%,#F6921E 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, circle cover,  #FDBC1E 0%,#F6921E 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, circle cover,  #FDBC1E 0%,#F6921E 100%); /* IE10+ */
+    background: radial-gradient(circle at center,  #FDBC1E 0%,#F6921E 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F6921E', endColorstr='#FDBC1E',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#logo{
+	background: url(../images/logo.png) no-repeat;
+	display:inline-block;
+	float:none;
+	margin-top: 23px;
+	height:178px;
+	width:297px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;}
+
+#home{
+	background: url(../images/home.png) no-repeat;
+	display:block;
+	margin-top: 84px;
+	margin-left: 40px;
+	float:none;
+	height:284px;
+	width:412px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;}
+
+.diaLugarLink{
+	background: url(../images/dia-lugar.png) no-repeat;
+	display: block;
+	margin-left: 35px;
+	margin-top: 41px;
+	height:108px;
+	width:360px;
+	} 
+
+.registerLink{
+	background: url(../images/toRegisterBtn.png) no-repeat;
+	display: block;
+	margin-left: 35px;
+	margin-top: 40px;
+	height:283px;
+	width:360px;
+	} 
+ 
+.contenidoprincipal {
+    margin: 0 auto;
+    margin-top: 15px;
+    display: table;
+    text-align:left;
+    overflow:hidden;
+    width: 1024px;
+    padding: 0px 0px 0px 0px;
+    margin-top:0px;
+    margin-bottom: 60px;
+    background: #FFFFFF;
+    font-size:16px;
+    color: #6D6D6D;
+    font-family: 'Roboto', sans-serif;
+   }
+
+.izquierda {
+    float: left;
+    display:block;
+    padding: 0px 5px 5px 5px;
+    margin-left:5%;
+    overflow:hidden;
+    width: 450px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.derecha {
+    float: right;
+    display:block;
+    padding: 0px 5px 5px 5px;
+    margin-right:1%;
+    overflow:hidden;
+    width: 450px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.sendIdea {
+    color: black;
+}
+
+.completo {
+    float: none;
+    display:block;
+    
+    overflow:hidden;
+    width: 960px;
+    height: auto;
+    margin-left:5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:black;
+}
+
+.signin{
+    width: 100%;
+    overflow:hidden;
+    padding: 0px 5px 5px 10px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:black;
+    background-color: #E6E6E6;
+}
+
+.signin div{
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.rigth{
+    overflow: hidden;
+    padding-top: 150px;
+    width: 360px;
+}
+
+.left{
+    float: left;
+    display: block;
+    /*padding: 5px 5px 5px 5px;*/
+    overflow: hidden;
+    width: 664px;
+    height: auto;
+}
+
+#signinLogo{
+	background: url(../images/registerBtn.png) no-repeat;
+	float: left;
+	width:360px;
+	height:165px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;} 
+
+h3 {
+    font-size: 34px;
+    font-family: 'Squada One', cursive;
+    margin-bottom: 0px;} 
+
+h4 {
+    font-size: 28px;
+    font-family: 'Squada One', cursive;
+    margin-bottom: 7px;}
+
+.homeIzquierda{
+    float: left;
+    display:block;
+    padding: 42px 5px 5px 5px;
+    margin-left:5%;
+    overflow:hidden;
+    width: 450px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.diaLugar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #ECEDED;
+}
+
+.diaLugar1{
+    font-size: 60px;
+    font-family: 'age_font', cursive;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+ }
+.diaLugar2{
+    font-size: 26px;
+    font-family: 'Squada One', cursive;
+    margin-bottom: 0px;
+    color: #389EC3;
+ }
+.diaLugar3{
+    font-size: 35px;
+    font-family: 'Squada One', cursive;
+    margin-bottom: 0px;
+    color: #389EC3;  
+ }
+
+.contenidoprincipal h3 {
+    color: #00adee;
+}
+
+.signin h3 {
+    color: #f6921e;
+}
+
+#invitacion{
+    color: #f6921e;
+    
+}
+
+.title {
+    font-size: 34px;
+    font-family: 'Squada One', cursive;
+    margin-bottom: -10px;
+}
+
+
+#ideas{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; 
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    color: #717474;
+    background-color: #E6E6E6;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#ideasTitulo{
+    color: #717474;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    padding: 0px 0px 0px 0px;
+}
+
+#autor {
+    color: #00ADEE;
+    text-decoration: none;
+}
+
+#enlace {
+    color: #7D92B9;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background: #13223C;
+}
+
+#logoFooter{
+	background: url(../images/logoFooter.png) no-repeat;
+	display:inline-block;
+	float:none;
+	width:202px;
+	height:35px;
+	margin-top: 13px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+
+.featureTitleBold{
+    font-weight: bold;
+}
+
+#basesYcondicionesLink{
+
+
+    cursor: pointer;
+    font-size: 10px;
+}
+/* ---------- TIMER ---------- */
+
+ul#countdown {
+  padding-left: 0px;
+}
+
+ul#countdown li {
+  display: inline-block;
+  background: transparent url('../images/timer-piece.png') no-repeat left top;
+  width: 104px;
+  text-align: center;
+}
+ul#countdown li span {
+  font-size: 3em;
+  font-weight: bold;
+  color: #1f2225;
+  height: 108px;
+  line-height: 108px;
+  position: relative;
+}
+ul#countdown li span::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 31px;
+}
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+  color: #909091;
+  text-transform: uppercase;
+  font-size: .875em;
+}
+
+.timer-area {
+  background: transparent url('../images/timer-area-pattern.png') left top;
+}
+.timer-area h1 {
+  color: #000000;
+}
+.idea:last-child{
+    margin-bottom: 175px;
+}
+
+.facebookDiv {
+    margin-bottom: 169;
+}

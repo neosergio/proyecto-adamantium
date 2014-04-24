@@ -6,14 +6,21 @@ sinfante@belatrixsf.com
 Andres Tello
 atello@belatrixsf.com
 
-Renzo Castañeda
-rcastaneda@belatrixsf.com
-
 Raul Rashuaman
 rrashuaman@belatrixsf.com
 
+Rossana Garcia
+rgarcia@belatrixsf.com
+
+/* MARKETING TEAM */
+Fernando Gonzalez
+fgonzalez@belatrixsf.com
+
+Karla Cerrón
+kcerron@belatrixsf.com
+
 /* SITE */
-Last update: 2014/03/15
+Last update: 2014/05/23
 Standars: html5, css3
 Components: jquery, bootstrap
 Software: Sublime Text

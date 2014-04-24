@@ -133,6 +133,9 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+.mastfoot p {
+  color: #666;
+}
 
 /*
  * Affix and center

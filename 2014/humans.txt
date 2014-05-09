@@ -20,7 +20,6 @@ Karla Cerrón
 kcerron@belatrixsf.com
 
 /* SITE */
-Last update: 2014/05/23
 Standars: html5, css3
 Components: jquery, bootstrap
 Software: Sublime Text

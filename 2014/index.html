@@ -12,6 +12,8 @@
     <meta property="og:image:height" content="110" />
     <meta property="og:title" content="Hackatrix, La Hackathon de Belatrix Software" />
     <meta property="og:description" content="La Hackathon de Belatrix, creemos que los cambios son posibles si gente con ideas innovadoras se encuentra y trabaja junta." />
+    <link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="docs-assets/ico/favicon.png">
     <link rel="image_src" href="http://hackatrix.belatrixsf.com/2014/media/hackatrix.png" />
     <link rel="author" href="humans.txt">
@@ -250,6 +252,7 @@
           <img class="img-circle" src="media/hackatrix-med.png" alt="Hackatrix">
           <h2>Sábado 17 de Mayo 2014.</h2>
           <h3>9:00 am - 07:00 pm</h3>
+          <p><span class="kkcountdown" data-time="1400335200"></span></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <a href="https://goo.gl/maps/o7a2W" target="_blank" title="Google Maps PUCP"><img class="img-circle" src="media/mapa-hackatrix.png" alt="Hackatrix"></a>
@@ -572,6 +575,19 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="docs-assets/js/holder.js"></script>
+    <script src="js/kkcountdown.js"></script>
+    <script>
+        $(".kkcountdown").kkcountdown({
+            dayText: ' día ',
+            daysText: ' días ',
+            hoursText: 'h ',
+            minutesText: 'm ',
+            secondsText: 's ',
+            displayZeroDays: true,
+            callback: false,
+            rusNumbers: false
+        });
+    </script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -2,3 +2,7 @@
 .algunas-ideas { color: #FFA500; }
 .idea h4 { color: #D3D3D3; }
 iframe { z-index: 1; }
+
+/* countdown styles */
+.kkc-days, .kkc-hours, .kkc-min, .kkc-sec { color: #5884ff; font-weight: bold; font-size: 20px; font-family: 'Audiowide', cursive; }
+.kkc-days-text, .kkc-hours-text, .kkc-min-text, .kkc-sec-text { font-family: 'Audiowide', cursive; font-size: 18px; }

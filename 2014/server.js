@@ -1,10 +1,11 @@
-/* previous install connect using node.js */
+/* previous install connect and serve-static using node.js */
 /* npm install connect */
-/* this is using 8080 port */
+/* npm install serve-static */
+/* this is using 5000 port */
 var connect = require('connect');
-connect.createServer(
-	connect.static(__dirname)
-).listen(8080);
-
+var serveStatic = require('serve-static');
+var app = connect();
+app.use(serveStatic(__dirname));
+app.listen(5000);
 /* just run this file using node */
 /* node server.js */

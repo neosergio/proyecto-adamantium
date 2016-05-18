@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="author" href="humans.txt">
+	<link rel="shortcut icon" href="docs-assets/ico/favicon.png">
+	<link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+	<title>TIC TAC Hackatrix</title>
+	<style>
+		#clock { font-size: 10em; font-family: 'Audiowide', cursive; text-align: center; }
+		#clock p { margin: 50px 0; }
+		.kkc-days, .kkc-hours, .kkc-min, .kkc-sec { color: #5884ff; font-weight: bold; }
+		.title-clock { font-size: 75px !important; margin-bottom: 100px;}
+	</style>
+</head>
+<body>
+	<div id="clock">
+		<p class="title-clock" id='title-clock'>Tiempo restante</p>
+		<p><span class="kkcountdown" data-time="1463868900"></span></p>
+	</div>
+	<div id='bulbassur' style='margin: 0 200px; visibility:hidden'>
+<pre>
+               _,........__
+            ,-'            "`-.
+          ,'                   `-.
+        ,'                        \
+      ,'                           .
+      .'\               ,"".       `
+     ._.'|             / |  `       \
+     |   |            `-.'  ||       `.
+     |   |            '-._,'||       | \
+     .`.,'             `..,'.'       , |`-.
+     l                       .'`.  _/  |   `.
+     `-.._'-   ,          _ _'   -" \  .     `
+`."""""'-.`-...,---------','         `. `....__.
+.'        `"-..___      __,'\          \  \     \
+\_ .          |   `""""'    `.           . \     \
+  `.          |              `.          |  .     L
+    `.        |`--...________.'.        j   |     |
+      `._    .'      |          `.     .|   ,     |
+         `--,\       .            `7""' |  ,      |
+            ` `      `            /     |  |      |    _,-'"""`-.
+             \ `.     .          /      |  '      |  ,'          `.
+              \  v.__  .        '       .   \    /| /              \
+               \/    `""\"""""""`.       \   \  /.''                |
+                `        .        `._ ___,j.  `/ .-       ,---.     |
+                ,`-.      \         ."     `.  |/        j     `    |
+               /    `.     \       /         \ /         |     /    j
+              |       `-.   7-.._ .          |"          '         /
+              |          `./_    `|          |            .     _,'
+              `.           / `----|          |-............`---'
+                \          \      |          |
+               ,'           )     `.         |
+                7____,,..--'      /          |
+                                  `---.__,--.'
+                       VAMO A ACABARLO!
+		</pre>
+	</div>
+	<audio id="audio" controls>
+		<source src="media/victory.mp3" type="audio/mpeg">
+	</audio>
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/kkcountdown.js"></script>
+    <script>
+        $(".kkcountdown").kkcountdown({
+            dayText: ' día ',
+            daysText: ' días ',
+            hoursText: 'h ',
+            minutesText: 'm ',
+            secondsText: 's ',
+            displayZeroDays: false,
+            callback: false,
+            rusNumbers: false,
+            oneDayClass: true,
+            textAfterCount: 'GAME OVER\n'
+        });
+    </script>
+</body>
+</html>

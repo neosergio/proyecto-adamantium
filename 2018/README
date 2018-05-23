@@ -1,0 +1,6 @@
+brew install node
+or
+brew upgrade node
+
+npm install connect
+npm install serve-static
